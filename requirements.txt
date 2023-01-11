@@ -4,5 +4,6 @@ flask_cors
 flask_ngrok
 requests
 nltk
+numpy
 torch
 gunicorn
