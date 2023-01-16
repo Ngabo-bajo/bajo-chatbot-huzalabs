@@ -7,3 +7,5 @@ nltk
 numpy
 torch
 gunicorn
+sqlachemy
+psycopg2
