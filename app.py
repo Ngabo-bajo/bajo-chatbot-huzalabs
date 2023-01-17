@@ -35,6 +35,7 @@ class Queries(db.Model):
     lang = db.Column(db.String(5))
     created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
     updated_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+    
 with app.app_context():
     db.create_all()
 #from flask import get_response
