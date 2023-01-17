@@ -20,7 +20,7 @@ chatBot = chatBot()
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycop2://bajo:D6kg1QtmzVLVuyXMJd8CDo8ugLHypJEk@dpg-cf2kcnh4reb5o4625mtg-a/chatbot_w1kv"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycop2://admin:lM8JYUPPuhLlD9w0yGukaSvnn95pODKw@dpg-cf35t702i3mnjchgm0s0-a.oregon-postgres.render.com/chatbot_0n6p"
 
 db = SQLAlchemy(app)
 
@@ -29,11 +29,12 @@ CORS(app)
 ## Database
 
 class Queries(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
+    chat_id = db.Column(db.Integer, primary_key=True)
     question = db.Column(db.String(1000))
     answer = db.Column(db.String(1000))
-    language = db.Column(db.String(5))
-    timestamp = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+    lang = db.Column(db.String(5))
+    created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
 with app.app_context():
     db.create_all()
 #from flask import get_response
@@ -75,6 +76,7 @@ def process(QUESTION: str):
     ORIGINAL_RESPONSE = process_answer(RESPONSE, SL)
     R.append(ORIGINAL_RESPONSE)
     return ORIGINAL_RESPONSE, SL
+    
 @app.route("/",  methods=["GET"])
 def index_get():
     return render_template("index.html")
@@ -85,7 +87,7 @@ def predict():
     response, sl = process(text)
     # we jsonify our response
     message = {"answer":response}
-    query = Queries(question=text, answer=response, language=sl)
+    query = Queries(question=text, answer=response, lang=sl)
     db.session.add(query)
     db.session.commit()
     return jsonify(message)
