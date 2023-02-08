@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Welcome to our government institution's chatbot project! Our goal with this project is to provide a convenient and user-friendly way for visitors to access important information on our website.
+Welcome to our RSB chatbot project! Our goal with this project is to provide a convenient and user-friendly way for visitors to access important information on our website.
 This chatbot has been trained to assist visitors in finding the information they need quickly and efficiently. It can provide information on a wide range of topics, such as government services, policies, and programs. Additionally, it can also provide links to specific pages on our website, such as forms and applications, contact information, and upcoming events.
 One of the key features of this chatbot is its ability to understand natural language, making it easy for visitors to ask questions and receive answers in a conversational format. For example, a visitor can ask "What are the requirements for obtaining a driver's license?" and the chatbot will provide a link to the page on our website that contains the information on driver's license requirements.
 We are constantly updating the chatbot's knowledge base to ensure that it is providing the most accurate and up-to-date information possible. This chatbot is also available 24/7, so visitors can access information whenever it is convenient for them.
