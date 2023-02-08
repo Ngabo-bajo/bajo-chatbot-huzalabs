@@ -175,7 +175,7 @@ Bajo - [@LinkedIn](https://www.linkedin.com/in/ngabonziza-bajo-9715a6200/) - nga
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+I thank these guys for their help to accomplish this task
 
 * [Rene Kabagamba](https://github.com/renekabagamba)
 * [Patrick Loeber](https://github.com/patrickloeber)
