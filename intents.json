@@ -1,0 +1,337 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+		{
+            "tag": "NSD Overview",
+            "patterns": [
+                "what is the NSD overview?",
+                "tell me about the NSD overview",
+                "can you give an overview of NSD?",
+                "what is NSD all about?",
+                "what is the purpose of NSD?",
+                "what does NSD stand for?",
+                "what is included in NSD?"
+            ],
+            "responses": [
+                "NSD stands for National Standards Development. It is a program aimed at developing national standards for various products and services in Rwanda. The goal of NSD is to ensure quality, safety, and reliability of products and services in Rwanda. More information can be found at this link <a href=\"https://www.rsb.gov.rw/standards/about-nsd\" target=\"_blank\">https://www.rsb.gov.rw/standards/about-nsd</a>."
+            ]
+        },
+        {
+            "tag": "NSD Objectives",
+            "patterns": [
+                "what are the objectives of NSD?",
+                "what is the purpose of NSD objectives?",
+                "what are the goals of NSD?",
+                "what is the aim of NSD objectives?",
+                "why are NSD objectives important?"
+            ],
+            "responses": [
+                "The objectives of NSD are to improve the quality and competitiveness of products and services in Rwanda, to provide a basis for fair trade, to protect health and safety of consumers, and to promote the use of national and international standards. For more information, please visit this link <a href=\"https://www.rsb.gov.rw/standards/about-nsd\" target=\"_blank\">https://www.rsb.gov.rw/standards/about-nsd</a>."
+            ]
+        },
+        {
+            "tag": "NSD Process",
+            "patterns": [
+                "what is the NSD process?",
+                "how does NSD work?",
+                "can you explain the NSD process?",
+                "what is included in the NSD process?",
+                "what is the procedure for NSD?"
+            ],
+            "responses": [
+                "The NSD process involves the development and adoption of national standards for various products and services. This process includes the identification of needs for standards, development of draft standards, consultation and stakeholder involvement, adoption and publication of standards, and their implementation. More information on the NSD process can be found at this link <a href=\"https://www.rsb.gov.rw/standards/about-nsd\" target=\"_blank\">https://www.rsb.gov.rw/standards/about-nsd</a>."
+            ]
+        },
+		{
+			"tag": "National Standard Development",
+			"patterns": [
+			"What is National Standard Development?",
+			"Tell me about National Standard Development",
+			"What does National Standard Development do?",
+			"What is the purpose of National Standard Development?",
+			"What is the role of National Standard Development?"
+			],
+			"responses": [
+			"National Standard Development is the process of developing and publishing standards that aim to improve the quality of goods and services and ensure their safety, health and environmental protection. You can find more information on National Standard Development at <a href='https://www.rsb.gov.rw/standards/about-nsd' target='_blank'>https://www.rsb.gov.rw/standards/about-nsd</a>."
+			]
+		},
+
+		{
+			"tag": "Standardization System in Rwanda",
+			"patterns": [
+			"What is the standardization system in Rwanda?",
+			"Tell me about the standardization system in Rwanda",
+			"What does the standardization system in Rwanda do?",
+			"What is the purpose of the standardization system in Rwanda?",
+			"What is the role of the standardization system in Rwanda?"
+			],
+			"responses": [
+			"The Standardization System in Rwanda aims to ensure that all goods and services produced and consumed in Rwanda meet required standards of quality, safety, health, and environmental protection. You can find more information on the Standardization System in Rwanda at <a href='https://www.rsb.gov.rw/standards/about-nsd' target='_blank'>https://www.rsb.gov.rw/standards/about-nsd</a>."
+			]
+		},
+			
+		{
+			"tag": "Standardization Mark",
+			"patterns": [
+			"What is the standardization mark?",
+			"Tell me about the standardization mark",
+			"What does the standardization mark mean?",
+			"What is the purpose of the standardization mark?",
+			"What is the role of the standardization mark?"
+			],
+			"responses": [
+			"The Standardization Mark is a mark of conformity used to indicate that a product has been evaluated and meets the requirements of relevant Rwanda standards. The Standardization Mark gives consumers confidence that the product is safe, reliable, and meets the quality requirements. You can find more information on the Standardization Mark at <a href='https://www.rsb.gov.rw/standards/about-nsd' target='_blank'>https://www.rsb.gov.rw/standards/about-nsd</a>."
+			]
+		},
+		{
+			"tag": "RSB Overview",
+			"patterns": [
+			"What is the Rwanda Standards Board?",
+			"What does the Rwanda Standards Board do?",
+			"What is the role of the Rwanda Standards Board?",
+			"What is the purpose of the Rwanda Standards Board?",
+			"Can you tell me about the Rwanda Standards Board?"
+			],
+			"responses": [
+			"The Rwanda Standards Board (RSB) is a government agency responsible for the development, promotion, and coordination of standardization activities in Rwanda. It aims to enhance the competitiveness of the Rwandan economy by ensuring the availability of appropriate and relevant standards, promoting their use, and protecting the health and safety of consumers. You can find more information on the Rwanda Standards Board at <a href='https://www.rsb.gov.rw/about/overview' target='_blank'>https://www.rsb.gov.rw/about/overview</a>."
+			]
+		},
+		{
+			"tag": "RSB Mandate",
+			"patterns": [
+			"What is the mandate of the Rwanda Standards Board?",
+			"What are the responsibilities of the Rwanda Standards Board?",
+			"What is the mission of the Rwanda Standards Board?"
+			],
+			"responses": [
+			"The mandate of the Rwanda Standards Board is to develop, promote, and coordinate standardization activities in Rwanda in order to enhance the competitiveness of the Rwandan economy. This includes ensuring the availability of appropriate and relevant standards, promoting their use, and protecting the health and safety of consumers. You can find more information on the mandate of the Rwanda Standards Board at <a href='https://www.rsb.gov.rw/about/overview' target='_blank'>https://www.rsb.gov.rw/about/overview</a>."
+			]
+		},
+		{
+			"tag": "Board of Directors",
+			"patterns": [
+			"Who are the Board of Directors of RSB?",
+			"Tell me about RSB's Board of Directors",
+			"What do you know about RSB's Board of Directors?",
+			"I want to know more about RSB's Board of Directors",
+			"Can you give me information about the Board of Directors of RSB?"
+			],
+			"responses": [
+			"The Rwanda Standards Board (RSB) is governed by a Board of Directors consisting of seven members appointed by the Minister of Trade and Industry. The Board of Directors provides strategic direction and oversees the implementation of RSB's policies and programs. You can find more information on the management of RSB at <a href='https://www.rsb.gov.rw/about/management' target='_blank'>https://www.rsb.gov.rw/about/management</a>."
+			]
+		},
+		{
+			"tag": "Management Team",
+			"patterns": [
+			"Who is part of RSB's management team?",
+			"Tell me about RSB's management team",
+			"What do you know about RSB's management team?",
+			"I want to know more about RSB's management team",
+			"Can you give me information about the management team of RSB?"
+			],
+			"responses": [
+			"The Rwanda Standards Board (RSB) is managed by a team of professionals who are responsible for the day-to-day operations of the organization. The management team consists of the Director General and several heads of departments. You can find more information on the management of RSB at <a href='https://www.rsb.gov.rw/about/management' target='_blank'>https://www.rsb.gov.rw/about/management</a>."
+			]
+		},
+		{
+			"tag": "RSB's Director General",
+			"patterns": [
+			"Who is the Director General of RSB?",
+			"Tell me about RSB's Director General",
+			"What do you know about RSB's Director General?",
+			"I want to know more about RSB's Director General",
+			"Can you give me information about the Director General of RSB?"
+			],
+			"responses": [
+			"The Director General of the Rwanda Standards Board (RSB) is the Chief Executive Officer of the organization and is responsible for the overall management and administration of RSB. You can find more information on the management of RSB at <a href='https://www.rsb.gov.rw/about/management' target='_blank'>https://www.rsb.gov.rw/about/management</a>."
+			]
+		},
+		 {
+      "tag": "About_Rwanda_Standards_Board",
+      "patterns": [
+        "What is Rwanda Standards Board",
+        "Tell me about Rwanda Standards Board",
+        "What does Rwanda Standards Board do",
+        "What is the purpose of Rwanda Standards Board"
+      ],
+      "responses": [
+        "Rwanda Standards Board is a certification body that provides certification for products, management systems, and persons. The organization's management systems comply with ISO 17021 for audit and certification of management systems, ISO 17065 for product certification, and ISO 17024 for certification of persons. For more information, visit <a href='https://www.rsb.gov.rw/certifications/about-ncd' target='_blank'>https://www.rsb.gov.rw/certifications/about-ncd</a>."
+      ]
+    },
+    {
+      "tag": "what_is_certification",
+      "patterns": [
+        "What is certification",
+        "Define certification",
+        "Explain certification",
+        "What does certification mean"
+      ],
+      "responses": [
+        "Certification is a third-party attestation process where the attributes, characteristics, quality, or status of individuals or organizations, goods or services, procedures or processes are evaluated and confirmed to be in accordance with established standards. The goal of certification is to give confidence to all interested parties that the certified individuals or organizations, goods or services, procedures or processes meet specified requirements. For more information, visit <a href='https://www.rsb.gov.rw/certifications/about-ncd' target='_blank'>https://www.rsb.gov.rw/certifications/about-ncd</a>."
+      ]
+    },
+    {
+      "tag": "benefits_of_certification",
+      "patterns": [
+        "What are the benefits of certification",
+        "Why is certification important",
+        "What is the purpose of certification",
+        "What are the advantages of certification"
+      ],
+      "responses": [
+        "Certification provides several benefits including: giving confidence to interested parties that certified organizations, goods or services, procedures or processes meet specified requirements, serving as a strong marketing tool for businesses, reducing production/service costs through increased efficiency, increasing profits by reducing losses, promoting trade and increasing government revenues, improving product/service safety and consumer satisfaction. For more information, visit <a href='https://www.rsb.gov.rw/certifications/about-ncd' target='_blank'>https://www.rsb.gov.rw/certifications/about-ncd</a>."
+      ]
+    },
+    {
+      "tag": "certification_services",
+      "patterns": [
+        "What certification services does RSB offer",
+        "What type of certification services does RSB provide",
+        "What are the certification services offered by RSB",
+        "What is included in RSB's certification services"
+      ],
+      "responses": [
+        "RSB currently offers two types of certification services: Product Certification and System Certification. For more information, visit <a href='https://www.rsb.gov.rw/certifications/about-ncd' target='_blank'>https://www.rsb.gov.rw/certifications/about-ncd</a>."
+	  ]
+	},
+	{
+		"tag": "what_is_product_certification",
+		"patterns": [
+		"What is product certification",
+		"Define product certification",
+		"Explain product certification",
+		"What does product certification mean"
+		],
+		"responses": [
+		"Product certification is an attestation process where the attributes, characteristics, quality, or status of goods are evaluated and confirmed to be in accordance with established standards. Certified products are given a Standardization Mark (S-Mark), which is displayed on the product. For more information, visit <a href='https://www.rsb.gov.rw/certifications/product-certification' target='_blank'>https://www.rsb.gov.rw/certifications/product-certification</a>."
+		]
+	},
+	{
+		"tag": "benefits_of_product_certification",
+		"patterns": [
+		"What are the benefits of product certification",
+		"Why is product certification important",
+		"What is the purpose of product certification",
+		"What are the advantages of product certification"
+		],
+		"responses": [
+		"Product certification provides several benefits including: serving as a powerful marketing tool for manufacturers and exporters, providing credibility when negotiating contracts, improving complaints handling and customer satisfaction, resulting in consistent quality of products. For more information, visit <a href='https://www.rsb.gov.rw/certifications/product-certification' target='_blank'>https://www.rsb.gov.rw/certifications/product-certification</a>."
+		]
+	},
+	{
+		"tag": "process_of_product_certification",
+		"patterns": [
+		"What is the process of product certification",
+		"How to get product certification",
+		"Steps involved in product certification",
+		"Details of product certification process"
+		],
+		"responses": [
+		"The process of product certification involves: filling-in an application form, certification fee payment, conducting an audit of the production line, product sampling and testing, submission of audit report, closure of corrective actions, certification decision by an independent committee, issuance of certification documents, surveillance audit, market surveillance, and re-certification. For more information, visit <a href='https://www.rsb.gov.rw/certifications/product-certification' target='_blank'>https://www.rsb.gov.rw/certifications/product-certification</a>."
+		]
+ 	},
+	{
+		"tag": "how_to_get_s_mark_certification",
+		"patterns": [
+		"How do I get S-Mark certification",
+		"What is the process to get S-Mark certification",
+		"How to apply for S-Mark certification",
+		"How to get my product certified with S-Mark"
+		],
+		"responses": [
+		"The process to get S-Mark certification involves the following steps: filling-in application form (2 Options: online or Hard copy), certification fee payment, conduct audit of the production line and take samples, product sampling and testing, submission of audit report to client, closure of corrective actions (if any), certification decision by independent committee, issuance of certification documents (Contract, License and Certificate of Conformity), surveillance audit (Once in 2 years), market surveillance (Twice in 2 years), and re-certification (After 2 years). For more information, visit <a href='https://www.rsb.gov.rw/certifications/product-certification' target='_blank'>https://www.rsb.gov.rw/certifications/product-certification</a>."
+		]
+	},
+	{
+		"tag": "s_mark_certification_linkage",
+		"patterns": [
+		"What is the link between S-Mark certification and SDGs",
+		"What is the connection between S-Mark certification and EAC",
+		"How does S-Mark certification relate to AfCFTA",
+		"What is the relationship between S-Mark certification and national, regional, and global agendas"
+		],
+		"responses": [
+		"S-Mark certification is linked to several national, regional, and global agendas, including SDG 1 End poverty in all its forms everywhere & SDG 2 Zero hunger, EAC Peer assessment and the S-Mark logo is registered at EAC Secretariat and recognized in all EAC partner states, and the AfCFTA Implementation Strategy, 2020. For more information, visit <a href='https://www.rsb.gov.rw/certifications/product-certification' target='_blank'>https://www.rsb.gov.rw/certifications/product-certification</a>."
+		]
+	},
+	{
+      "tag": "about system certification",
+      "patterns": [
+        "What is system certification",
+        "Tell me about system certification",
+        "What is the purpose of system certification",
+        "Explain system certification"
+      ],
+      "responses": [
+        "System certification refers to the process of certifying the management system of an organization by Rwanda Standard Board. In the last decade, RSB has been branding its management system certification services using a Single Quality Mark. The Single Quality Mark is a logo that indicates the certified status of an organization. The RSB Single Quality Mark has been registered by the Office of Registrar General in Rwanda Development Board. For more information, visit <a href='https://www.rsb.gov.rw/certifications/system-certification/introduction' target='_blank'>https://www.rsb.gov.rw/certifications/system-certification/introduction</a>."
+      ]
+    },
+    {
+      "tag": "Single_Quality_Mark",
+      "patterns": [
+        "What is Single Quality Mark",
+        "Tell me about Single Quality Mark",
+        "Explain Single Quality Mark",
+        "How does Single Quality Mark work"
+      ],
+      "responses": [
+        "Single Quality Mark refers to the logo by which certified organizations indicate their certified status. The mark is made up of the C-Shape which represents compliance, part representing lmigongo for Rwandan heritage, and the identification of the certified management system. The RSB Single Quality Mark has been registered by the Office of Registrar General in Rwanda Development Board and may only be used by organizations that have written permission from the Director General. The colour scheme of the logo and details on its use are provided in the Policy on the use of marks: NCD/POL/04. For more information, visit <a href='https://www.rsb.gov.rw/certifications/system-certification/introduction' target='_blank'>https://www.rsb.gov.rw/certifications/system-certification/introduction</a>."
+      ]
+    },
+    {
+      "tag": "how_to_apply",
+      "patterns": [
+        "How do I apply for system certification",
+        "What are the steps to apply for system certification",
+        "What do I need to do to get system certification",
+        "Can you explain the process of applying for system certification"
+      ],
+      "responses": [
+        "To apply for system certification, you will need to fill out an application form, pay the certification fees, and undergo a 2-stage audit. The first stage consists of a desk audit and on-site visit, while the second stage is a full audit. After the audit, the audit report will be submitted to the client and any corrective actions will be closed. The certification decision will then be made by an independent committee, and a certificate of conformity will be issued. Finally, a surveillance audit will be conducted, followed by re-certification after 3 years. Note that the time frame depends on the client's readiness. For more information, visit <a href='https://www.rsb.gov.rw/certifications/system-certification/introduction' target='_blank'>https://www.rsb.gov.rw/certifications/system-certification/introduction</a>."
+	  ]
+	}
+	]
+}
